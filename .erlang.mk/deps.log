@@ -1,8 +1,12 @@
 /home/pampa/pampa_pro/deps/cowboy
 /home/pampa/pampa_pro/deps/cowlib
 /home/pampa/pampa_pro/deps/ranch
-/home/pampa/pampa_pro/deps/lager
-/home/pampa/pampa_pro/deps/goldrush
 /home/pampa/pampa_pro/deps/sync
 /home/pampa/pampa_pro/deps/amqp_client
 /home/pampa/pampa_pro/deps/rabbit_common
+/home/pampa/pampa_pro/deps/rabbitmq_codegen
+/home/pampa/pampa_pro/deps/lager
+/home/pampa/pampa_pro/deps/goldrush
+/home/pampa/pampa_pro/deps/jsx
+/home/pampa/pampa_pro/deps/ranch_proxy_protocol
+/home/pampa/pampa_pro/deps/recon
