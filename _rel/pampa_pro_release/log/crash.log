@@ -417,3 +417,1001 @@ Ranch listener my_http_listener, connection process <0.4384.0>, stream 1 had its
 2017-11-09 16:15:50 =ERROR REPORT====
 /home/pampa/pampa_pro/src/tcp_handler.erl:17: Error: function loop/2 undefined
 /home/pampa/pampa_pro/src/tcp_handler.erl:20: Error: undefined macro 'TCP_TIMEOUT_MS'
+2017-11-09 20:12:26 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:1: Error: no module definition
+2017-11-09 20:22:24 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:31: Error: function init/1 already defined
+2017-11-09 20:23:34 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:1: Error: no module definition
+2017-11-09 20:36:42 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:41: Error: variable 'MsgerPid' is unbound
+/home/pampa/pampa_pro/src/tcp_handler.erl:48: Warning: variable 'MsgerPid' is unused
+2017-11-09 20:44:32 =CRASH REPORT====
+  crasher:
+    initial call: tcp_handler:init/1
+    pid: <0.3658.0>
+    registered_name: []
+    exception error: bad argument: [{io,format,[<0.657.0>,"tcp init pid : ~p ~n",<0.3658.0>],[]},{tcp_handler,init,1,[{file,"/home/pampa/pampa_pro/src/tcp_handler.erl"},{line,32}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [<0.689.0>,<0.688.0>,ranch_sup,<0.658.0>]
+    message_queue_len: 1
+    messages: [{shoot,my_tcp_listener,ranch_tcp,#Port<0.3814>,5000}]
+    links: [<0.689.0>,#Port<0.3814>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 376
+    stack_size: 27
+    reductions: 174
+  neighbours:
+2017-11-09 20:44:32 =ERROR REPORT====
+Ranch listener my_tcp_listener had connection process started with tcp_handler:start_link/4 at <0.3658.0> exit with reason: {badarg,[{io,format,[<0.657.0>,"tcp init pid : ~p ~n",<0.3658.0>],[]},{tcp_handler,init,1,[{file,"/home/pampa/pampa_pro/src/tcp_handler.erl"},{line,32}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:13:49 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:16: Error: function terminate/2 undefined
+/home/pampa/pampa_pro/src/tcp_handler.erl:91: Error: syntax error before: ok
+2017-11-09 21:17:00 =ERROR REPORT====
+** Generic server <0.6500.0> terminating 
+** Last message in was {tcp_closed,#Port<0.4221>}
+** When Server state == {tcp_state,#Port<0.4221>,ranch_tcp,none,<0.6501.0>}
+** Reason for termination == 
+** {<0.6501.0>,[{tcp_handler,terminate,2,[{file,"/home/pampa/pampa_pro/src/tcp_handler.erl"},{line,90}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:17:00 =CRASH REPORT====
+  crasher:
+    initial call: tcp_handler:init/1
+    pid: <0.6500.0>
+    registered_name: []
+    exception exit: {<0.6501.0>,[{tcp_handler,terminate,2,[{file,"/home/pampa/pampa_pro/src/tcp_handler.erl"},{line,90}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.689.0>,<0.688.0>,ranch_sup,<0.658.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.689.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 679
+  neighbours:
+2017-11-09 21:17:00 =ERROR REPORT====
+Ranch listener my_tcp_listener had connection process started with tcp_handler:start_link/4 at <0.6500.0> exit with reason: <0.6501.0>
+2017-11-09 21:22:52 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:16: Error: function terminate/2 undefined
+/home/pampa/pampa_pro/src/tcp_handler.erl:91: Error: syntax error before: ok
+2017-11-09 21:23:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.7573.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.7576.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4537>,1,131072,rabbit_framing_amqp_0_9_1,<0.7575.0>,{<<"client 127.0.0.1:38400 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:23:37 =SUPERVISOR REPORT====
+     Supervisor: {<0.7573.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.7576.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4537>,1,131072,rabbit_framing_amqp_0_9_1,<0.7575.0>,{<<"client 127.0.0.1:38400 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:23:37 =ERROR REPORT====
+Error in process <0.7576.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4168.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-D_rIs7l-ikboewRgGwmIdA">>,91,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.4168.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4167.0>,<0.4161.0>,<0.4159.0>,<0.4158.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4167.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 4804
+  neighbours:
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4167.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.4168.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4167.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.4168.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4169.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-D_rIs7l-ikboewRgGwmIdA">>,91,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.4160.0>,<0.4168.0>,network,{[],[]},false,<0.4170.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4167.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.4169.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.4160.0>,1,<0.4168.0>,{<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.6512.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-dG-RXaFP7rTF11bcLeOUTg">>,2,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.6512.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.6511.0>,<0.6505.0>,<0.6503.0>,<0.6502.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.6511.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 539
+  neighbours:
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4954.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-dFqn_UTetSOVvS3YkXXVdQ">>,18,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.934.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-G3QEga7BgreSIweE76KceQ">>,92,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.4954.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4953.0>,<0.4947.0>,<0.4945.0>,<0.4944.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4953.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:52547 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 1320
+  neighbours:
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.934.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.933.0>,<0.927.0>,<0.923.0>,<0.922.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.933.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 4814
+  neighbours:
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4645.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-nwd809z4MVFelcLUT4jvGw">>,85,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.4645.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4644.0>,<0.4638.0>,<0.4636.0>,<0.4635.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4644.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 4506
+  neighbours:
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.5362.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-KfIJGw5OayvNWjG_xo8eVw">>,2,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.5362.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.5361.0>,<0.5355.0>,<0.5353.0>,<0.5352.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.5361.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 588
+  neighbours:
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6511.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.6512.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6511.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.6512.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4953.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.4954.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:52547 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.933.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.934.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.933.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.934.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4953.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.4954.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:52547 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4644.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.4645.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4644.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.4645.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4329.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-rPtNgIOrVi3Sud0q5d1d4Q">>,88,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.4329.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4328.0>,<0.4322.0>,<0.4320.0>,<0.4319.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4328.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:36250 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 4758
+  neighbours:
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.5361.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.5362.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.5361.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.5362.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.935.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-G3QEga7BgreSIweE76KceQ">>,92,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.924.0>,<0.934.0>,network,{[],[]},false,<0.936.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.5739.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-wWVVnvIKqIe_J13PE2XTlw">>,2,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.4646.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-nwd809z4MVFelcLUT4jvGw">>,85,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.4637.0>,<0.4645.0>,network,{[],[]},false,<0.4647.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.5739.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.5738.0>,<0.5732.0>,<0.5730.0>,<0.5729.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.5738.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:41802 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 638
+  neighbours:
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.6732.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-b1nkpUCue2So0Lacntethw">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.6732.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.6731.0>,<0.6725.0>,<0.6723.0>,<0.6722.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.6731.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 585
+  neighbours:
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.933.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.935.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.924.0>,1,<0.934.0>,{<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4644.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.4646.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.4637.0>,1,<0.4645.0>,{<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4328.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.4329.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:36250 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.4328.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.4329.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:36250 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.5738.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.5739.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41802 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.5738.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.5739.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:41802 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6731.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.6732.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6731.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.6732.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.6513.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-dG-RXaFP7rTF11bcLeOUTg">>,2,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.6504.0>,<0.6512.0>,network,{[],[]},false,<0.6514.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.5363.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-KfIJGw5OayvNWjG_xo8eVw">>,2,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.5354.0>,<0.5362.0>,network,{[],[]},false,<0.5364.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.5361.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.5363.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.5354.0>,1,<0.5362.0>,{<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6511.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.6513.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.6504.0>,1,<0.6512.0>,{<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:41 =ERROR REPORT====
+** Generic server <0.6733.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-b1nkpUCue2So0Lacntethw">>,1,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.6724.0>,<0.6732.0>,network,{[],[]},false,<0.6734.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:25:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.6731.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.6733.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.6724.0>,1,<0.6732.0>,{<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.7833.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.7836.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4539>,1,131072,rabbit_framing_amqp_0_9_1,<0.7835.0>,{<<"client 127.0.0.1:35888 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:44 =SUPERVISOR REPORT====
+     Supervisor: {<0.7833.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.7836.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4539>,1,131072,rabbit_framing_amqp_0_9_1,<0.7835.0>,{<<"client 127.0.0.1:35888 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:25:44 =ERROR REPORT====
+Error in process <0.7836.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:27:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.8165.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.8155.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.8168.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4590>,1,131072,rabbit_framing_amqp_0_9_1,<0.8167.0>,{<<"client 127.0.0.1:35496 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:27:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.8165.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.8168.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.4590>,1,131072,rabbit_framing_amqp_0_9_1,<0.8167.0>,{<<"client 127.0.0.1:35496 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:27:39 =ERROR REPORT====
+Error in process <0.8168.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.8155.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:32:20 =ERROR REPORT====
+** Generic server <0.8693.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 21:32:20 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.8693.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.8692.0>,<0.8686.0>,<0.8684.0>,<0.8683.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.8692.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 537
+  neighbours:
+2017-11-09 21:32:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.8692.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.8693.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:32:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.8692.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.8693.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:32:20 =ERROR REPORT====
+** Generic server <0.8694.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"fe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.8685.0>,<0.8693.0>,network,{[],[]},false,<0.8695.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {{unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}},[{gen_server2,call,3,[{file,"src/gen_server2.erl"},{line,327}]},{amqp_channel,handle_method_from_server1,3,[{file,"src/amqp_channel.erl"},{line,760}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,616}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 21:32:20 =CRASH REPORT====
+  crasher:
+    initial call: amqp_channel:init/1
+    pid: <0.8694.0>
+    registered_name: []
+    exception exit: {{unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}},[{gen_server2,call,3,[{file,"src/gen_server2.erl"},{line,327}]},{amqp_channel,handle_method_from_server1,3,[{file,"src/amqp_channel.erl"},{line,760}]},{gen_server,try_dispatch,4,[{file,"gen_server.erl"},{line,616}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,686}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.8692.0>,<0.8686.0>,<0.8684.0>,<0.8683.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.8692.0>]
+    dictionary: [{process_name,{amqp_channel,{<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}}},{gen_server_call_timeout,60000}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 856
+  neighbours:
+2017-11-09 21:32:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.8692.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}}
+     Offender:   [{pid,<0.8694.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.8685.0>,1,<0.8693.0>,{<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:32:20 =ERROR REPORT====
+** Generic server <0.8685.0> terminating 
+** Last message in was {channel_exit,0,method_field_shortstr_overflow}
+** When Server state == {state,amqp_network_connection,{state,#Port<0.4663>,<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,10,<0.8688.0>,131072,<0.8684.0>,{internal_error,541,<<"<0.8694.0>:{unexpected_delivery_and_no_default_consumer,\n               {gen_server2,call,\n                   [<0.8693.0>,\n                    {consumer_call,\n                        {'basic.deliver',\n                            <<\"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A\">>,1,false,\n                            <<\"hello1\">>,<<>>},\n                        {amqp_msg,\n                            {'P_basic',undefined,undefined,undefined,\n                                undefined,undefined,undefined,undefined,\n                                undefined,undefined,undefined,undefined,\n                                undefined,undefined,undefined},\n                            <<\"fe\\r\\n\">>}},\n                    60000]}}">>},false},<0.8687.0>,{amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"localhost",5672,0,0,10,60000,none,[#Fun<amqp_auth_mechanisms.plain.3>,#Fun<amqp_auth_mechanisms.amqplain.3>],[],[]},0,[{<<"capabilities">>,table,[{<<"publisher_confirms">>,bool,true},{<<"exchange_exchange_bindings">>,bool,true},{<<"basic.nack">>,bool,true},{<<"consumer_cancel_notify">>,bool,true},{<<"connection.blocked">>,bool,true},{<<"consumer_priorities">>,bool,true},{<<"authentication_failure_close">>,bool,true},{<<"per_consumer_qos">>,bool,true},{<<"direct_reply_to">>,bool,true}]},{<<"cluster_name">>,longstr,<<"pampa_pro_rabbit@localhost">>},{<<"copyright">>,longstr,<<"Copyright (C) 2007-2017 Pivotal Software, Inc.">>},{<<"information">>,longstr,<<"Licensed under the MPL.  See http://www.rabbitmq.com/">>},{<<"platform">>,longstr,<<"Erlang/OTP 20.1">>},{<<"product">>,longstr,<<"RabbitMQ">>},{<<"version">>,longstr,<<"3.6.12">>}],none,{closing,internal_error,{'connection.close',541,<<"<0.8694.0>:{unexpected_delivery_and_no_default_consumer,\n               {gen_server2,call,\n                   [<0.8693.0>,\n                    {consumer_call,\n                        {'basic.deliver',\n                            <<\"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A\">>,1,false,\n                            <<\"hello1\">>,<<>>},\n                        {amqp_msg,\n                            {'P_basic',undefined,undefined,undefined,\n                                undefined,undefined,undefined,undefined,\n                                undefined,undefined,undefined,undefined,\n                                undefined,undefined,undefined},\n                            <<\"fe\\r\\n\">>}},\n                    60000]}}">>,0,0},none}}
+** Reason for termination == 
+** {channel0_died,method_field_shortstr_overflow}
+2017-11-09 21:32:20 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_connection:init/1
+    pid: <0.8685.0>
+    registered_name: []
+    exception exit: {{channel0_died,method_field_shortstr_overflow},[{gen_server,handle_common_reply,8,[{file,"gen_server.erl"},{line,726}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.8683.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.8683.0>,#Port<0.4663>]
+    dictionary: [{process_name,{amqp_gen_connection,<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>}},{gen_server_call_timeout,60000}]
+    trap_exit: true
+    status: running
+    heap_size: 1598
+    stack_size: 27
+    reductions: 6995
+  neighbours:
+2017-11-09 21:32:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.8683.0>,amqp_connection_sup}
+     Context:    child_terminated
+     Reason:     {channel0_died,method_field_shortstr_overflow}
+     Offender:   [{pid,<0.8685.0>},{name,connection},{mfargs,{amqp_gen_connection,start_link,[<0.8684.0>,{amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"localhost",5672,0,0,10,60000,none,[#Fun<amqp_auth_mechanisms.plain.3>,#Fun<amqp_auth_mechanisms.amqplain.3>],[],[]}]}},{restart_type,intrinsic},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-11-09 21:32:20 =SUPERVISOR REPORT====
+     Supervisor: {<0.8683.0>,amqp_connection_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.8685.0>},{name,connection},{mfargs,{amqp_gen_connection,start_link,[<0.8684.0>,{amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"localhost",5672,0,0,10,60000,none,[#Fun<amqp_auth_mechanisms.plain.3>,#Fun<amqp_auth_mechanisms.amqplain.3>],[],[]}]}},{restart_type,intrinsic},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-11-09 21:55:06 =SUPERVISOR REPORT====
+     Supervisor: {<0.1136.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.1124.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1139.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1621>,1,131072,rabbit_framing_amqp_0_9_1,<0.1138.0>,{<<"client 127.0.0.1:46462 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:55:06 =SUPERVISOR REPORT====
+     Supervisor: {<0.1136.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1139.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1621>,1,131072,rabbit_framing_amqp_0_9_1,<0.1138.0>,{<<"client 127.0.0.1:46462 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 21:55:06 =ERROR REPORT====
+Error in process <0.1139.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1124.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:03:27 =ERROR REPORT====
+Error in process <0.972.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:03:27 =SUPERVISOR REPORT====
+     Supervisor: {<0.969.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.972.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1454>,1,131072,rabbit_framing_amqp_0_9_1,<0.971.0>,{<<"client 127.0.0.1:43942 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:03:27 =SUPERVISOR REPORT====
+     Supervisor: {<0.969.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.972.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1454>,1,131072,rabbit_framing_amqp_0_9_1,<0.971.0>,{<<"client 127.0.0.1:43942 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:08:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.1001.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.989.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1005.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1487>,1,131072,rabbit_framing_amqp_0_9_1,<0.1004.0>,{<<"client 127.0.0.1:58181 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:08:59 =SUPERVISOR REPORT====
+     Supervisor: {<0.1001.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1005.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1487>,1,131072,rabbit_framing_amqp_0_9_1,<0.1004.0>,{<<"client 127.0.0.1:58181 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:08:59 =ERROR REPORT====
+Error in process <0.1005.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.989.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:09:52 =ERROR REPORT====
+** Generic server <0.3387.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-sqI2RX-QlYx1VQClGhpTAA">>,2,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"sef\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 22:09:52 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.3387.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.3386.0>,<0.3380.0>,<0.3378.0>,<0.3377.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3386.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:45458 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 506
+  neighbours:
+2017-11-09 22:09:52 =SUPERVISOR REPORT====
+     Supervisor: {<0.3386.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.3387.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:45458 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:09:52 =SUPERVISOR REPORT====
+     Supervisor: {<0.3386.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3387.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:45458 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:09:52 =ERROR REPORT====
+** Generic server <0.3388.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-sqI2RX-QlYx1VQClGhpTAA">>,2,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"sef\r\n">>]},noflow}}
+** When Server state == {state,1,<0.3379.0>,<0.3387.0>,network,{[],[]},false,<0.3389.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 22:10:41 =ERROR REPORT====
+** Generic server <0.3449.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-wG3re-Xi4ZoiaW5IDqiLAw">>,3,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"afe\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 22:10:41 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.3449.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.3448.0>,<0.3442.0>,<0.3440.0>,<0.3439.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3448.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 556
+  neighbours:
+2017-11-09 22:10:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.3448.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.3449.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:10:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.3448.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3449.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:10:41 =ERROR REPORT====
+** Generic server <0.3450.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-wG3re-Xi4ZoiaW5IDqiLAw">>,3,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"afe\r\n">>]},noflow}}
+** When Server state == {state,1,<0.3441.0>,<0.3449.0>,network,{[],[]},false,<0.3451.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 22:10:41 =SUPERVISOR REPORT====
+     Supervisor: {<0.3448.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.3450.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.3441.0>,1,<0.3449.0>,{<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:13:08 =ERROR REPORT====
+/home/pampa/pampa_pro/src/msger.erl:71: Error: variable 'DeadUserId' is unbound
+2017-11-09 22:13:26 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.3591.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[<0.3578.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]
+    ancestors: [<0.3588.0>,<0.3582.0>,<0.3580.0>,<0.3579.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 1
+    messages: [{send_command,{'channel.close',200,<<"Goodbye">>,0,0}}]
+    links: [<0.3588.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:42189 -> 127.0.0.1:5672">>,1}}},{msg_size_for_gc,5}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 827
+  neighbours:
+2017-11-09 22:13:26 =SUPERVISOR REPORT====
+     Supervisor: {<0.3588.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.3578.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.3591.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3876>,1,131072,rabbit_framing_amqp_0_9_1,<0.3590.0>,{<<"client 127.0.0.1:42189 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:13:26 =SUPERVISOR REPORT====
+     Supervisor: {<0.3588.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3591.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3876>,1,131072,rabbit_framing_amqp_0_9_1,<0.3590.0>,{<<"client 127.0.0.1:42189 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:21:08 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.975.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[<0.960.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]
+    ancestors: [<0.972.0>,<0.966.0>,<0.962.0>,<0.961.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.972.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:55979 -> 127.0.0.1:5672">>,1}}},{msg_size_for_gc,4}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 892
+  neighbours:
+2017-11-09 22:21:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.972.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.960.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.975.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1457>,1,131072,rabbit_framing_amqp_0_9_1,<0.974.0>,{<<"client 127.0.0.1:55979 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:21:08 =SUPERVISOR REPORT====
+     Supervisor: {<0.972.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.975.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1457>,1,131072,rabbit_framing_amqp_0_9_1,<0.974.0>,{<<"client 127.0.0.1:55979 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:39:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.1152.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lists,reverse,[{'USER_DEAD',<0.1140.0>}],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1155.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1637>,1,131072,rabbit_framing_amqp_0_9_1,<0.1154.0>,{<<"client 127.0.0.1:42317 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:39:32 =SUPERVISOR REPORT====
+     Supervisor: {<0.1152.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1155.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1637>,1,131072,rabbit_framing_amqp_0_9_1,<0.1154.0>,{<<"client 127.0.0.1:42317 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:39:32 =ERROR REPORT====
+Error in process <0.1155.0> on node pampa_pro@localhost with exit value:
+{function_clause,[{lists,reverse,[{'USER_DEAD',<0.1140.0>}],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:40:42 =ERROR REPORT====
+Error in process <0.3463.0> on node pampa_pro@localhost with exit value:
+{badarg,[{msger,loop,1,[{file,"/home/pampa/pampa_pro/src/msger.erl"},{line,86}]}]}
+2017-11-09 22:41:39 =ERROR REPORT====
+** Generic server <0.3474.0> terminating
+** Last message in was {consumer_call,{'basic.deliver',<<"amq.ctag-eXlssXu0rLxTr6EtAlZYZA">>,2,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"agfae\r\n">>}}
+** When Server state == {state,amqp_selective_consumer,{state,#{},undefined,#{},none}}
+** Reason for termination == 
+** unexpected_delivery_and_no_default_consumer
+2017-11-09 22:41:39 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_consumer:init/1
+    pid: <0.3474.0>
+    registered_name: []
+    exception exit: {unexpected_delivery_and_no_default_consumer,[{gen_server2,terminate,3,[{file,"src/gen_server2.erl"},{line,1170}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.3473.0>,<0.3467.0>,<0.3465.0>,<0.3464.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3473.0>]
+    dictionary: [{process_name,{amqp_gen_consumer,{<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 511
+  neighbours:
+2017-11-09 22:41:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.3473.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     unexpected_delivery_and_no_default_consumer
+     Offender:   [{pid,<0.3474.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:41:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.3473.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3474.0>},{name,gen_consumer},{mfargs,{amqp_gen_consumer,start_link,[amqp_selective_consumer,[],{<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:41:39 =ERROR REPORT====
+** Generic server <0.3475.0> terminating 
+** Last message in was {'$gen_cast',{method,{'basic.deliver',<<"amq.ctag-eXlssXu0rLxTr6EtAlZYZA">>,2,false,<<"hello1">>,<<>>},{content,60,none,<<0,0>>,rabbit_framing_amqp_0_9_1,[<<"agfae\r\n">>]},noflow}}
+** When Server state == {state,1,<0.3466.0>,<0.3474.0>,network,{[],[]},false,<0.3476.0>,none,none,0,true,none,{0,nil},{0,nil},true,false}
+** Reason for termination == 
+** {shutdown,[{gen,do_call,4,[{file,"gen.erl"},{line,177}]},{rabbit_writer,call,2,[{file,"src/rabbit_writer.erl"},{line,297}]},{amqp_channel,flush_writer,1,[{file,"src/amqp_channel.erl"},{line,875}]},{amqp_channel,terminate,2,[{file,"src/amqp_channel.erl"},{line,555}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+2017-11-09 22:41:39 =SUPERVISOR REPORT====
+     Supervisor: {<0.3473.0>,amqp_channel_sup}
+     Context:    shutdown_error
+     Reason:     shutdown
+     Offender:   [{pid,<0.3475.0>},{name,channel},{mfargs,{amqp_channel,start_link,[network,<0.3466.0>,1,<0.3474.0>,{<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}]}},{restart_type,intrinsic},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:41:56 =ERROR REPORT====
+Error in process <0.3659.0> on node pampa_pro@localhost with exit value:
+{badarg,[{msger,loop,1,[{file,"/home/pampa/pampa_pro/src/msger.erl"},{line,86}]}]}
+2017-11-09 22:43:02 =ERROR REPORT====
+Error in process <0.1015.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1000.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:43:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.1012.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.1000.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1015.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1497>,1,131072,rabbit_framing_amqp_0_9_1,<0.1014.0>,{<<"client 127.0.0.1:57291 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:43:02 =SUPERVISOR REPORT====
+     Supervisor: {<0.1012.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1015.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1497>,1,131072,rabbit_framing_amqp_0_9_1,<0.1014.0>,{<<"client 127.0.0.1:57291 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:43:49 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.3410.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[<0.3397.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]
+    ancestors: [<0.3407.0>,<0.3401.0>,<0.3399.0>,<0.3398.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3407.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:36114 -> 127.0.0.1:5672">>,1}}}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 751
+  neighbours:
+2017-11-09 22:43:49 =SUPERVISOR REPORT====
+     Supervisor: {<0.3407.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.3397.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.3410.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3409.0>,{<<"client 127.0.0.1:36114 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:43:49 =SUPERVISOR REPORT====
+     Supervisor: {<0.3407.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3410.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3409.0>,{<<"client 127.0.0.1:36114 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:44:16 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.1293.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[<0.1278.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]
+    ancestors: [<0.1290.0>,<0.1284.0>,<0.1280.0>,<0.1279.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.1290.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:34271 -> 127.0.0.1:5672">>,1}}},{msg_size_for_gc,7}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 891
+  neighbours:
+2017-11-09 22:44:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.1290.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.1278.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1293.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1775>,1,131072,rabbit_framing_amqp_0_9_1,<0.1292.0>,{<<"client 127.0.0.1:34271 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:44:16 =SUPERVISOR REPORT====
+     Supervisor: {<0.1290.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1293.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1775>,1,131072,rabbit_framing_amqp_0_9_1,<0.1292.0>,{<<"client 127.0.0.1:34271 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:44:54 =CRASH REPORT====
+  crasher:
+    initial call: rabbit_writer:enter_mainloop/2
+    pid: <0.3380.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,size,[<0.3367.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]
+    ancestors: [<0.3377.0>,<0.3371.0>,<0.3369.0>,<0.3368.0>,amqp_sup,<0.670.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3377.0>]
+    dictionary: [{process_name,{rabbit_writer,{<<"client 127.0.0.1:34265 -> 127.0.0.1:5672">>,1}}},{msg_size_for_gc,8}]
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 891
+  neighbours:
+2017-11-09 22:44:54 =SUPERVISOR REPORT====
+     Supervisor: {<0.3377.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.3367.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.3380.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3379.0>,{<<"client 127.0.0.1:34265 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:44:54 =SUPERVISOR REPORT====
+     Supervisor: {<0.3377.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3380.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3379.0>,{<<"client 127.0.0.1:34265 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:53:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.968.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.971.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1454>,1,131072,rabbit_framing_amqp_0_9_1,<0.970.0>,{<<"client 127.0.0.1:45318 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:53:45 =SUPERVISOR REPORT====
+     Supervisor: {<0.968.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.971.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1454>,1,131072,rabbit_framing_amqp_0_9_1,<0.970.0>,{<<"client 127.0.0.1:45318 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:53:45 =ERROR REPORT====
+Error in process <0.971.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:58:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.3558.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{lists,reverse,[<0.3548.0>],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.3561.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3560.0>,{<<"client 127.0.0.1:60079 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:58:21 =SUPERVISOR REPORT====
+     Supervisor: {<0.3558.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.3561.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.3839>,1,131072,rabbit_framing_amqp_0_9_1,<0.3560.0>,{<<"client 127.0.0.1:60079 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 22:58:21 =ERROR REPORT====
+Error in process <0.3561.0> on node pampa_pro@localhost with exit value:
+{function_clause,[{lists,reverse,[<0.3548.0>],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 23:01:47 =ERROR REPORT====
+Error in process <0.1070.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1053.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 23:01:47 =SUPERVISOR REPORT====
+     Supervisor: {<0.1067.0>,amqp_channel_sup}
+     Context:    child_terminated
+     Reason:     {badarg,[{erlang,size,[<0.1053.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+     Offender:   [{pid,<0.1070.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1551>,1,131072,rabbit_framing_amqp_0_9_1,<0.1069.0>,{<<"client 127.0.0.1:47367 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+
+2017-11-09 23:01:47 =SUPERVISOR REPORT====
+     Supervisor: {<0.1067.0>,amqp_channel_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.1070.0>},{name,writer},{mfargs,{rabbit_writer,start_link,[#Port<0.1551>,1,131072,rabbit_framing_amqp_0_9_1,<0.1069.0>,{<<"client 127.0.0.1:47367 -> 127.0.0.1:5672">>,1}]}},{restart_type,transient},{shutdown,30000},{child_type,worker}]
+

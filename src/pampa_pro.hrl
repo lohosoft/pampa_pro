@@ -1,11 +1,13 @@
 -define (HTTP_WEBSOCKET_PORT , 9090).
 -define (TCP_PORT, 9091).
 -define (WS_TIMEOUT, 30000).
--define (TCP_TIMEOUT, 10000).
+-define (TCP_TIMEOUT, 100000).
 
 -define (USER_DEAD , 'USER_DEAD').
 
 -define (USER_SEND_MSG , 'USER_SEND_MSG').
+
+-define (USER_RECV_MSG, 'USER_RECV_MSG').
 
 -record (msger_state, {
 						userpid 		= 		none,

@@ -51,13 +51,26 @@ loop(State) ->
         % maybe not recv this because set no_ack to true
         % {#'basic.deliver'{delivery_tag = DeliveryTag}, #amqp_msg{payload = Body}} ->
         %     io:format(" [x] Received ~p need ack with tage ~p ~n", [Body,DeliveryTag]),
-        %     UserPid ! {'RECV',Body,self()},
+        %     UserPid ! {?USER_RECV_MSG,Body,self()},
         %     loop(Channel,Tag,UserPid);
 
         {#'basic.deliver'{},#amqp_msg{payload = Payload}} ->
-            io:format(" [x] Received ~p~n", [Payload]),
-            State#msger_state.userpid ! {'RECV',Payload,self()},
-            loop(State);
+            io:format(" [x] Msger Received ~p~n", [Payload]),
+            Self = term_to_binary(State#msger_state.userpid),
+            case Payload of
+                %  user dead , close channel and connection before exit normal
+                Self ->
+                    io:format("self user dead : ~p ~n",[Self]),
+                    amqp_channel:close(State#msger_state.channel),
+
+                    amqp_connection:close(State#msger_state.connection),
+
+                    ok;
+                    % loop(State);
+                _Other ->
+                    State#msger_state.userpid ! {?USER_RECV_MSG,Payload,self()},
+                    loop(State)
+            end;
 
         {?USER_SEND_MSG,Data,_UserPid} ->
             % io:format("send data : ~p for ws : ~p \n",[Data,UserPid]),
@@ -65,15 +78,18 @@ loop(State) ->
                                 #'basic.publish'{exchange = <<"hello1">>}, 
                                 #amqp_msg{payload = Data}),
             loop(State); 
-        {?USER_DEAD,DeadWsId,_UserPid} ->
+        % ==============  TODO 
+        % need send unique id but user pid 
+        {?USER_DEAD,DeadUserId,_UserPid} ->
             amqp_channel:cast(State#msger_state.channel,
                                 #'basic.publish'{exchange = <<"hello1">>}, 
-                                #amqp_msg{payload = [<<"dead_id:">>,DeadWsId]}),
-
+                                #amqp_msg{payload = term_to_binary(DeadUserId)}),
             loop(State);
+
         _Other ->
             % io:format("msger received unknown messages"),
             loop(State)
+
 
     end.
 

@@ -446,3 +446,584 @@
 2017-11-09 17:01:36.461 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
 2017-11-09 17:01:36.464 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
 2017-11-09 17:01:36.464 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:08:59.338 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 20:08:59.339 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 20:08:59.342 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 20:08:59.342 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:12:26.199 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:1: Error: no module definition
+2017-11-09 20:13:50.272 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:13:50.289 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:19:41.776 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 20:19:41.776 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 20:19:41.776 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 20:19:41.776 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 20:19:41.776 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 20:19:41.776 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 20:19:41.778 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 20:19:41.780 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 20:19:41.781 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:20:24.688 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:20:24.708 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:22:24.258 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:31: Error: function init/1 already defined
+2017-11-09 20:22:43.471 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:23:34.111 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:1: Error: no module definition
+2017-11-09 20:35:57.189 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 20:35:57.189 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 20:35:57.190 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 20:35:57.190 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 20:35:57.190 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 20:35:57.190 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 20:35:57.190 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 20:35:57.193 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 20:35:57.193 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:36:42.650 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:41: Error: variable 'MsgerPid' is unbound
+/home/pampa/pampa_pro/src/tcp_handler.erl:48: Warning: variable 'MsgerPid' is unused
+2017-11-09 20:41:24.329 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 20:41:24.329 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 20:41:24.329 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 20:41:24.329 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 20:41:24.329 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 20:41:24.329 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 20:41:24.330 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 20:41:24.333 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 20:41:24.333 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:44:10.962 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:44:10.980 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:44:32.099 [error] <0.3658.0>@tcp_handler:init:32 CRASH REPORT Process <0.3658.0> with 0 neighbours crashed with reason: bad argument in call to io:format(<0.657.0>, "tcp init pid : ~p ~n", <0.3658.0>) in tcp_handler:init/1 line 32
+2017-11-09 20:44:32.100 [error] <0.3658.0>@tcp_handler:init:32 Ranch listener my_tcp_listener terminated with reason: bad argument in call to io:format(<0.657.0>, "tcp init pid : ~p ~n", <0.3658.0>) in tcp_handler:init/1 line 32
+2017-11-09 20:45:22.867 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:45:22.888 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:46:49.900 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:46:49.920 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:48:57.452 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:48:57.471 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:50:55.862 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:50:55.882 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:53:49.996 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 20:53:49.996 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 20:53:49.996 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 20:53:49.997 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 20:53:49.997 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 20:53:49.997 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 20:53:49.998 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 20:53:50.000 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 20:53:50.001 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 20:58:11.732 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 20:58:11.750 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 20:58:44.159 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 20:59:38.811 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:71: Warning: variable 'MsgerPid' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 20:59:38.832 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 20:59:57.054 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 20:59:57.076 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:00:05.178 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 21:02:36.912 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 21:02:36.933 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:05:25.873 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 21:05:25.895 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:06:52.880 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 21:06:52.900 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:13:49.183 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:16: Error: function terminate/2 undefined
+/home/pampa/pampa_pro/src/tcp_handler.erl:91: Error: syntax error before: ok
+2017-11-09 21:16:26.263 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'State' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 21:16:26.284 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:17:00.132 [error] <0.6500.0> gen_server <0.6500.0> terminated with reason: <0.6501.0> in tcp_handler:terminate/2 line 90
+2017-11-09 21:17:00.133 [error] <0.6500.0> CRASH REPORT Process <0.6500.0> with 0 neighbours exited with reason: <0.6501.0> in tcp_handler:terminate/2 line 90
+2017-11-09 21:17:00.133 [error] <0.6500.0> Ranch listener my_tcp_listener terminated with reason: <0.6501.0>
+2017-11-09 21:17:53.256 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'State' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 21:17:53.274 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:22:01.436 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 21:22:01.465 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 21:22:12.629 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 21:22:12.654 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 21:22:52.099 [error] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:16: Error: function terminate/2 undefined
+/home/pampa/pampa_pro/src/tcp_handler.erl:91: Error: syntax error before: ok
+2017-11-09 21:22:54.156 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'MsgerPid' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'State' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 21:22:54.179 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:23:18.446 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'State' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 21:23:18.465 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:23:37.359 [error] <0.7573.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.7573.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4537>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.7575.0>, {<<"client 127.0.0.1:38400 -> 127.0.0.1:5672">>,1}) at <0.7576.0> exit with reason bad argument in call to erlang:size(none) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 21:23:37.360 [error] <0.7573.0> Supervisor {<0.7573.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4537>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.7575.0>, {<<"client 127.0.0.1:38400 -> 127.0.0.1:5672">>,1}) at <0.7576.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:23:37.360 [error] emulator Error in process <0.7576.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:25:41.731 [error] <0.4168.0> gen_server <0.4168.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.732 [error] <0.4168.0> CRASH REPORT Process <0.4168.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.732 [error] <0.4167.0> Supervisor {<0.4167.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}) at <0.4168.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.733 [error] <0.4167.0> Supervisor {<0.4167.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}) at <0.4168.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.733 [error] <0.4169.0> gen_server <0.4169.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.733 [error] <0.4167.0> Supervisor {<0.4167.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.4160.0>, 1, <0.4168.0>, {<<"client 127.0.0.1:51849 -> 127.0.0.1:5672">>,1}) at <0.4169.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:41.733 [error] <0.6512.0> gen_server <0.6512.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.734 [error] <0.6512.0> CRASH REPORT Process <0.6512.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.734 [error] <0.4954.0> gen_server <0.4954.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.734 [error] <0.934.0> gen_server <0.934.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.734 [error] <0.4954.0> CRASH REPORT Process <0.4954.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.734 [error] <0.934.0> CRASH REPORT Process <0.934.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.735 [error] <0.4645.0> gen_server <0.4645.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.735 [error] <0.4645.0> CRASH REPORT Process <0.4645.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.735 [info] <0.7568.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,88,82,79,73,98,99,81,69,89,90,83,99,120,122,83,75,112,79,105,55,65,0,0,0,0,0,0,0,1,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:25:41.735 [info] <0.7568.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:25:41.735 [info] <0.7568.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:25:41.735 [error] <0.5362.0> gen_server <0.5362.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.736 [error] <0.5362.0> CRASH REPORT Process <0.5362.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.736 [error] <0.6511.0> Supervisor {<0.6511.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}) at <0.6512.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.737 [error] <0.6511.0> Supervisor {<0.6511.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}) at <0.6512.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.737 [error] <0.4953.0> Supervisor {<0.4953.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52547 -> 127.0.0.1:5672">>,1}) at <0.4954.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.737 [error] <0.933.0> Supervisor {<0.933.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}) at <0.934.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.738 [error] <0.933.0> Supervisor {<0.933.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}) at <0.934.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.738 [error] <0.4953.0> Supervisor {<0.4953.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52547 -> 127.0.0.1:5672">>,1}) at <0.4954.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.738 [error] <0.4644.0> Supervisor {<0.4644.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}) at <0.4645.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.739 [error] <0.4644.0> Supervisor {<0.4644.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}) at <0.4645.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.739 [error] <0.4329.0> gen_server <0.4329.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.739 [error] <0.4329.0> CRASH REPORT Process <0.4329.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.740 [error] <0.5361.0> Supervisor {<0.5361.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}) at <0.5362.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.740 [error] <0.5361.0> Supervisor {<0.5361.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}) at <0.5362.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.740 [error] <0.935.0> gen_server <0.935.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.740 [error] <0.5739.0> gen_server <0.5739.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.740 [error] <0.4646.0> gen_server <0.4646.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.741 [error] <0.5739.0> CRASH REPORT Process <0.5739.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.741 [error] <0.6732.0> gen_server <0.6732.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:25:41.741 [error] <0.6732.0> CRASH REPORT Process <0.6732.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:25:41.742 [error] <0.933.0> Supervisor {<0.933.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.924.0>, 1, <0.934.0>, {<<"client 127.0.0.1:50704 -> 127.0.0.1:5672">>,1}) at <0.935.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:41.742 [error] <0.4644.0> Supervisor {<0.4644.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.4637.0>, 1, <0.4645.0>, {<<"client 127.0.0.1:44965 -> 127.0.0.1:5672">>,1}) at <0.4646.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:41.743 [error] <0.4328.0> Supervisor {<0.4328.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:36250 -> 127.0.0.1:5672">>,1}) at <0.4329.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.743 [error] <0.4328.0> Supervisor {<0.4328.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:36250 -> 127.0.0.1:5672">>,1}) at <0.4329.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.743 [error] <0.5738.0> Supervisor {<0.5738.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41802 -> 127.0.0.1:5672">>,1}) at <0.5739.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.744 [error] <0.5738.0> Supervisor {<0.5738.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:41802 -> 127.0.0.1:5672">>,1}) at <0.5739.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.744 [error] <0.6731.0> Supervisor {<0.6731.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}) at <0.6732.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:25:41.745 [error] <0.6731.0> Supervisor {<0.6731.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}) at <0.6732.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:41.745 [error] <0.6513.0> gen_server <0.6513.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.745 [error] <0.5363.0> gen_server <0.5363.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.745 [error] <0.5361.0> Supervisor {<0.5361.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.5354.0>, 1, <0.5362.0>, {<<"client 127.0.0.1:52781 -> 127.0.0.1:5672">>,1}) at <0.5363.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:41.745 [error] <0.6511.0> Supervisor {<0.6511.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.6504.0>, 1, <0.6512.0>, {<<"client 127.0.0.1:54018 -> 127.0.0.1:5672">>,1}) at <0.6513.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:41.746 [error] <0.6733.0> gen_server <0.6733.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 21:25:41.746 [error] <0.6731.0> Supervisor {<0.6731.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.6724.0>, 1, <0.6732.0>, {<<"client 127.0.0.1:42589 -> 127.0.0.1:5672">>,1}) at <0.6733.0> exit with reason shutdown in context shutdown_error
+2017-11-09 21:25:44.705 [error] <0.7833.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.7833.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4539>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.7835.0>, {<<"client 127.0.0.1:35888 -> 127.0.0.1:5672">>,1}) at <0.7836.0> exit with reason bad argument in call to erlang:size(none) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 21:25:44.705 [error] <0.7833.0> Supervisor {<0.7833.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4539>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.7835.0>, {<<"client 127.0.0.1:35888 -> 127.0.0.1:5672">>,1}) at <0.7836.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:25:44.705 [error] emulator Error in process <0.7836.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[none],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:27:24.397 [warning] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:87: Warning: variable 'State' is unused
+/home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled with 1 warnings
+2017-11-09 21:27:24.417 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 21:27:39.925 [error] <0.8165.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.8165.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4590>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.8167.0>, {<<"client 127.0.0.1:35496 -> 127.0.0.1:5672">>,1}) at <0.8168.0> exit with reason bad argument in call to erlang:size(<0.8155.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 21:27:39.926 [error] <0.8165.0> Supervisor {<0.8165.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.4590>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.8167.0>, {<<"client 127.0.0.1:35496 -> 127.0.0.1:5672">>,1}) at <0.8168.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:27:39.926 [error] emulator Error in process <0.8168.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.8155.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 21:30:47.884 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:68: Warning: variable 'DeadUserId' is unused
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 21:30:47.905 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 21:32:20.791 [info] <0.6726.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,98,49,110,107,112,85,67,117,101,50,83,111,48,76,97,99,110,116,101,116,104,119,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.6726.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.6726.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.4639.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,110,119,100,56,48,57,122,52,77,86,70,101,108,99,76,85,84,52,106,118,71,119,0,0,0,0,0,0,0,86,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.4639.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.4639.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.5356.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,75,102,73,74,71,119,53,79,97,121,118,78,87,106,71,95,120,111,56,101,86,119,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.5356.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.5356.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.8160.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,120,53,80,50,74,118,107,117,68,104,79,71,74,112,45,71,95,45,97,76,119,0,0,0,0,0,0,0,1,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.8160.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.8160.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.928.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,51,81,69,103,97,55,66,103,114,101,83,73,119,101,69,55,54,75,99,101,81,0,0,0,0,0,0,0,93,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.928.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.791 [info] <0.928.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4948.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,70,113,110,95,85,84,101,116,83,79,86,118,83,51,89,107,88,88,86,100,81,0,0,0,0,0,0,0,19,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4948.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4948.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.5733.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,119,87,86,86,110,118,73,75,113,73,101,95,74,49,51,80,69,50,88,84,108,119,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.5733.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.5733.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4162.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,95,114,73,115,55,108,45,105,107,98,111,101,119,82,103,71,119,109,73,100,65,0,0,0,0,0,0,0,92,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4162.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4162.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7568.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,88,82,79,73,98,99,81,69,89,90,83,99,120,122,83,75,112,79,105,55,65,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7568.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7568.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7828.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,105,117,119,66,89,52,51,52,105,82,87,52,77,76,101,120,100,51,106,79,81,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7828.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.7828.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4323.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,114,80,116,78,103,73,79,114,86,105,51,83,117,100,48,113,53,100,49,100,52,81,0,0,0,0,0,0,0,89,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4323.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.4323.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.6506.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,71,45,82,88,97,70,80,55,114,84,70,49,49,98,99,76,101,79,85,84,103,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.6506.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:20.792 [info] <0.6506.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:20.793 [error] <0.8693.0> gen_server <0.8693.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 21:32:20.794 [error] <0.8693.0> CRASH REPORT Process <0.8693.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 21:32:20.794 [error] <0.8692.0> Supervisor {<0.8692.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}) at <0.8693.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 21:32:20.848 [error] <0.8692.0> Supervisor {<0.8692.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}) at <0.8693.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:32:20.848 [error] <0.8694.0> gen_server <0.8694.0> terminated with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}} in gen_server2:call/3 line 327
+2017-11-09 21:32:20.849 [error] <0.8694.0> CRASH REPORT Process <0.8694.0> with 0 neighbours exited with reason: {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}} in gen_server2:call/3 line 327
+2017-11-09 21:32:20.850 [error] <0.8692.0> Supervisor {<0.8692.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.8685.0>, 1, <0.8693.0>, {<<"client 127.0.0.1:57326 -> 127.0.0.1:5672">>,1}) at <0.8694.0> exit with reason {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}} in context shutdown_error
+2017-11-09 21:32:20.850 [warning] <0.8685.0> Connection (<0.8685.0>) closing: internal error in channel (<0.8694.0>): {unexpected_delivery_and_no_default_consumer,{gen_server2,call,[<0.8693.0>,{consumer_call,{'basic.deliver',<<"amq.ctag-VOgPr_UWkQtrH0QZVsiv0A">>,1,false,<<"hello1">>,<<>>},{amqp_msg,{'P_basic',undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined,undefined},<<"fe\r\n">>}},60000]}}
+2017-11-09 21:32:20.850 [error] <0.8685.0> gen_server <0.8685.0> terminated with reason: {channel0_died,method_field_shortstr_overflow}
+2017-11-09 21:32:20.851 [error] <0.8685.0> CRASH REPORT Process <0.8685.0> with 0 neighbours exited with reason: {channel0_died,method_field_shortstr_overflow} in gen_server:handle_common_reply/8 line 726
+2017-11-09 21:32:20.851 [error] <0.8683.0> Supervisor {<0.8683.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.8684.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"localhost",5672,0,0,10,60000,none,[#Fun<amqp_..>,...],...}) at <0.8685.0> exit with reason {channel0_died,method_field_shortstr_overflow} in context child_terminated
+2017-11-09 21:32:20.852 [error] <0.8683.0> Supervisor {<0.8683.0>,amqp_connection_sup} had child connection started with amqp_gen_connection:start_link(<0.8684.0>, {amqp_params_network,<<"guest">>,<<"guest">>,<<"/">>,"localhost",5672,0,0,10,60000,none,[#Fun<amqp_..>,...],...}) at <0.8685.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:32:56.600 [info] <0.6726.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,98,49,110,107,112,85,67,117,101,50,83,111,48,76,97,99,110,116,101,116,104,119,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.600 [info] <0.6726.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.600 [info] <0.6726.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.5356.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,75,102,73,74,71,119,53,79,97,121,118,78,87,106,71,95,120,111,56,101,86,119,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.5356.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.5356.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.7828.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,105,117,119,66,89,52,51,52,105,82,87,52,77,76,101,120,100,51,106,79,81,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.7828.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.7828.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4323.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,114,80,116,78,103,73,79,114,86,105,51,83,117,100,48,113,53,100,49,100,52,81,0,0,0,0,0,0,0,90,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4323.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4323.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4639.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,110,119,100,56,48,57,122,52,77,86,70,101,108,99,76,85,84,52,106,118,71,119,0,0,0,0,0,0,0,87,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4639.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4639.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.8160.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,120,53,80,50,74,118,107,117,68,104,79,71,74,112,45,71,95,45,97,76,119,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.8160.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.8160.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4948.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,70,113,110,95,85,84,101,116,83,79,86,118,83,51,89,107,88,88,86,100,81,0,0,0,0,0,0,0,20,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4948.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.601 [info] <0.4948.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.5733.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,119,87,86,86,110,118,73,75,113,73,101,95,74,49,51,80,69,50,88,84,108,119,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.5733.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.5733.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.928.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,51,81,69,103,97,55,66,103,114,101,83,73,119,101,69,55,54,75,99,101,81,0,0,0,0,0,0,0,94,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.928.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.928.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.4162.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,95,114,73,115,55,108,45,105,107,98,111,101,119,82,103,71,119,109,73,100,65,0,0,0,0,0,0,0,93,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.4162.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.4162.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.7568.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,88,82,79,73,98,99,81,69,89,90,83,99,120,122,83,75,112,79,105,55,65,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.7568.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.7568.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.6506.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,71,45,82,88,97,70,80,55,114,84,70,49,49,98,99,76,101,79,85,84,103,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.6506.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:32:56.602 [info] <0.6506.0> Dropping frame {content_body,<<"fe\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.6726.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,98,49,110,107,112,85,67,117,101,50,83,111,48,76,97,99,110,116,101,116,104,119,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.6726.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.6726.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.5356.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,75,102,73,74,71,119,53,79,97,121,118,78,87,106,71,95,120,111,56,101,86,119,0,0,0,0,0,0,0,5,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.5356.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.5356.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.7828.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,105,117,119,66,89,52,51,52,105,82,87,52,77,76,101,120,100,51,106,79,81,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.704 [info] <0.7828.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.7828.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4323.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,114,80,116,78,103,73,79,114,86,105,51,83,117,100,48,113,53,100,49,100,52,81,0,0,0,0,0,0,0,91,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4323.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4323.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4639.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,110,119,100,56,48,57,122,52,77,86,70,101,108,99,76,85,84,52,106,118,71,119,0,0,0,0,0,0,0,88,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4639.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4639.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.8160.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,120,53,80,50,74,118,107,117,68,104,79,71,74,112,45,71,95,45,97,76,119,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.8160.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.8160.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.928.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,51,81,69,103,97,55,66,103,114,101,83,73,119,101,69,55,54,75,99,101,81,0,0,0,0,0,0,0,95,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.928.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.928.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4948.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,70,113,110,95,85,84,101,116,83,79,86,118,83,51,89,107,88,88,86,100,81,0,0,0,0,0,0,0,21,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4948.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4948.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.5733.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,119,87,86,86,110,118,73,75,113,73,101,95,74,49,51,80,69,50,88,84,108,119,0,0,0,0,0,0,0,5,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.5733.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.5733.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4162.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,95,114,73,115,55,108,45,105,107,98,111,101,119,82,103,71,119,109,73,100,65,0,0,0,0,0,0,0,94,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4162.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.4162.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.7568.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,68,88,82,79,73,98,99,81,69,89,90,83,99,120,122,83,75,112,79,105,55,65,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.7568.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.7568.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.6506.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,100,71,45,82,88,97,70,80,55,114,84,70,49,49,98,99,76,101,79,85,84,103,0,0,0,0,0,0,0,5,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.6506.0> Dropping frame {content_header,60,0,4,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 21:33:00.705 [info] <0.6506.0> Dropping frame {content_body,<<"se\r\n">>} for invalid or closed channel number 1
+2017-11-09 21:54:43.945 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 21:54:43.945 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 21:54:43.945 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 21:54:43.946 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 21:54:43.946 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 21:54:43.946 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 21:54:43.947 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 21:54:43.949 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 21:54:43.950 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 21:55:06.850 [error] <0.1136.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.1136.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1621>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1138.0>, {<<"client 127.0.0.1:46462 -> 127.0.0.1:5672">>,1}) at <0.1139.0> exit with reason bad argument in call to erlang:size(<0.1124.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 21:55:06.851 [error] <0.1136.0> Supervisor {<0.1136.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1621>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1138.0>, {<<"client 127.0.0.1:46462 -> 127.0.0.1:5672">>,1}) at <0.1139.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 21:55:06.851 [error] emulator Error in process <0.1139.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1124.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:02:00.575 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:02:00.593 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:02:26.900 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:02:54.085 [info] <0.585.0> SIGTERM received - shutting down
+2017-11-09 22:03:11.035 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:03:11.035 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:03:11.035 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:03:11.035 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:03:11.036 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:03:11.036 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:03:11.037 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:03:11.039 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:03:11.040 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:03:27.249 [error] emulator Error in process <0.972.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:03:27.250 [error] <0.969.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.969.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1454>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.971.0>, {<<"client 127.0.0.1:43942 -> 127.0.0.1:5672">>,1}) at <0.972.0> exit with reason bad argument in call to erlang:size(<0.956.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:03:27.251 [error] <0.969.0> Supervisor {<0.969.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1454>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.971.0>, {<<"client 127.0.0.1:43942 -> 127.0.0.1:5672">>,1}) at <0.972.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:06:51.585 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:06:51.606 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:07:53.346 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:07:53.362 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:08:06.958 [info] <0.964.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,105,117,122,45,119,54,110,54,97,113,115,106,80,97,116,76,48,122,69,121,79,81,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:06.958 [info] <0.964.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:06.958 [info] <0.964.0> Dropping frame {content_body,<<"few\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:08:22.749 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:08:22.770 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:08:26.931 [info] <0.964.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,105,117,122,45,119,54,110,54,97,113,115,106,80,97,116,76,48,122,69,121,79,81,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:26.931 [info] <0.964.0> Dropping frame {content_header,60,0,2,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:26.931 [info] <0.964.0> Dropping frame {content_body,<<"\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:08:27.786 [info] <0.964.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,105,117,122,45,119,54,110,54,97,113,115,106,80,97,116,76,48,122,69,121,79,81,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:27.786 [info] <0.964.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:08:27.786 [info] <0.964.0> Dropping frame {content_body,<<"fwe\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:08:43.215 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:08:43.215 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:08:43.216 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:08:43.216 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:08:43.216 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:08:43.216 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:08:43.217 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:08:43.220 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:08:43.220 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:08:59.292 [error] <0.1001.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.1001.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1487>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1004.0>, {<<"client 127.0.0.1:58181 -> 127.0.0.1:5672">>,1}) at <0.1005.0> exit with reason bad argument in call to erlang:size(<0.989.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:08:59.292 [error] <0.1001.0> Supervisor {<0.1001.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1487>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1004.0>, {<<"client 127.0.0.1:58181 -> 127.0.0.1:5672">>,1}) at <0.1005.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:08:59.292 [error] emulator Error in process <0.1005.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.989.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:09:22.681 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:68: Warning: variable 'DeadUserId' is unused
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:09:22.699 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:09:30.533 [info] <0.996.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,113,111,66,84,100,57,80,117,51,89,109,107,88,67,85,69,53,120,112,73,81,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:09:30.533 [info] <0.996.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:09:30.533 [info] <0.996.0> Dropping frame {content_body,<<"fes\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:09:52.446 [info] <0.996.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,113,111,66,84,100,57,80,117,51,89,109,107,88,67,85,69,53,120,112,73,81,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:09:52.447 [info] <0.996.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:09:52.447 [info] <0.996.0> Dropping frame {content_body,<<"sef\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:09:52.447 [error] <0.3387.0> gen_server <0.3387.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 22:09:52.447 [error] <0.3387.0> CRASH REPORT Process <0.3387.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 22:09:52.447 [error] <0.3386.0> Supervisor {<0.3386.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:45458 -> 127.0.0.1:5672">>,1}) at <0.3387.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 22:09:52.448 [error] <0.3386.0> Supervisor {<0.3386.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:45458 -> 127.0.0.1:5672">>,1}) at <0.3387.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:09:52.448 [error] <0.3388.0> gen_server <0.3388.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 22:10:07.967 [info] <0.996.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,113,111,66,84,100,57,80,117,51,89,109,107,88,67,85,69,53,120,112,73,81,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:07.967 [info] <0.996.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:07.967 [info] <0.996.0> Dropping frame {content_body,<<"efw\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:10:07.967 [info] <0.3381.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,115,113,73,50,82,88,45,81,108,89,120,49,86,81,67,108,71,104,112,84,65,65,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:07.967 [info] <0.3381.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:07.967 [info] <0.3381.0> Dropping frame {content_body,<<"efw\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:10:23.771 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:68: Warning: variable 'DeadUserId' is unused
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:10:23.791 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:10:41.599 [info] <0.996.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,102,113,111,66,84,100,57,80,117,51,89,109,107,88,67,85,69,53,120,112,73,81,0,0,0,0,0,0,0,5,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:41.599 [info] <0.996.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:41.600 [info] <0.996.0> Dropping frame {content_body,<<"afe\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:10:41.600 [info] <0.3381.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,115,113,73,50,82,88,45,81,108,89,120,49,86,81,67,108,71,104,112,84,65,65,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:41.600 [info] <0.3381.0> Dropping frame {content_header,60,0,5,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:10:41.600 [info] <0.3381.0> Dropping frame {content_body,<<"afe\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:10:41.600 [error] <0.3449.0> gen_server <0.3449.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 22:10:41.600 [error] <0.3449.0> CRASH REPORT Process <0.3449.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 22:10:41.601 [error] <0.3448.0> Supervisor {<0.3448.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}) at <0.3449.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 22:10:41.601 [error] <0.3448.0> Supervisor {<0.3448.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}) at <0.3449.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:10:41.601 [error] <0.3450.0> gen_server <0.3450.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 22:10:41.601 [error] <0.3448.0> Supervisor {<0.3448.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.3441.0>, 1, <0.3449.0>, {<<"client 127.0.0.1:39171 -> 127.0.0.1:5672">>,1}) at <0.3450.0> exit with reason shutdown in context shutdown_error
+2017-11-09 22:11:16.694 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:11:16.694 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:11:16.694 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:11:16.695 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:11:16.695 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:11:16.695 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:11:16.695 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:11:16.698 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:11:16.698 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:13:08.322 [error] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:71: Error: variable 'DeadUserId' is unbound
+2017-11-09 22:13:14.457 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:13:14.476 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:13:26.510 [error] <0.3591.0>@rabbit_binary_generator:build_content_frames:95 CRASH REPORT Process <0.3591.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(<0.3578.0>) in rabbit_binary_generator:build_content_frames/7 line 95
+2017-11-09 22:13:26.511 [error] <0.3588.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.3588.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3876>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3590.0>, {<<"client 127.0.0.1:42189 -> 127.0.0.1:5672">>,1}) at <0.3591.0> exit with reason bad argument in call to erlang:size(<0.3578.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:13:26.512 [error] <0.3588.0> Supervisor {<0.3588.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3876>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3590.0>, {<<"client 127.0.0.1:42189 -> 127.0.0.1:5672">>,1}) at <0.3591.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:20:59.640 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:20:59.640 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:20:59.640 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:20:59.640 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:20:59.640 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:20:59.640 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:20:59.641 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:20:59.644 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:20:59.644 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:21:08.777 [error] <0.975.0>@rabbit_binary_generator:build_content_frames:95 CRASH REPORT Process <0.975.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(<0.960.0>) in rabbit_binary_generator:build_content_frames/7 line 95
+2017-11-09 22:21:08.777 [error] <0.972.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.972.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1457>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.974.0>, {<<"client 127.0.0.1:55979 -> 127.0.0.1:5672">>,1}) at <0.975.0> exit with reason bad argument in call to erlang:size(<0.960.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:21:08.778 [error] <0.972.0> Supervisor {<0.972.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1457>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.974.0>, {<<"client 127.0.0.1:55979 -> 127.0.0.1:5672">>,1}) at <0.975.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:21:28.206 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:68: Warning: variable 'DeadUserId' is unused
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:21:28.225 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:21:34.093 [info] <0.967.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,85,72,56,90,51,66,105,86,77,109,65,84,113,48,113,122,70,116,69,76,111,103,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:21:34.093 [info] <0.967.0> Dropping frame {content_header,60,0,7,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:21:34.093 [info] <0.967.0> Dropping frame {content_body,<<"agesf\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:21:51.811 [info] <0.967.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,85,72,56,90,51,66,105,86,77,109,65,84,113,48,113,122,70,116,69,76,111,103,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:21:51.811 [info] <0.967.0> Dropping frame {content_header,60,0,8,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:21:51.812 [info] <0.967.0> Dropping frame {content_body,<<"ageafe\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:39:20.545 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:39:20.545 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:39:20.545 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:39:20.545 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:39:20.545 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:39:20.545 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:39:20.546 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:39:20.549 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:39:20.550 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:39:32.426 [error] <0.1152.0>@lists:reverse:147 Supervisor {<0.1152.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1637>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1154.0>, {<<"client 127.0.0.1:42317 -> 127.0.0.1:5672">>,1}) at <0.1155.0> exit with reason no function clause matching lists:reverse({'USER_DEAD',<0.1140.0>}) line 147 in context child_terminated
+2017-11-09 22:39:32.426 [error] <0.1152.0> Supervisor {<0.1152.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1637>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1154.0>, {<<"client 127.0.0.1:42317 -> 127.0.0.1:5672">>,1}) at <0.1155.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:39:32.427 [error] emulator Error in process <0.1155.0> on node pampa_pro@localhost with exit value:
+{function_clause,[{lists,reverse,[{'USER_DEAD',<0.1140.0>}],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:40:19.789 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:86: Warning: binary construction will fail because of a type mismatch
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:40:19.807 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:40:28.963 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:86: Warning: binary construction will fail because of a type mismatch
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:40:28.985 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:40:34.251 [info] <0.1147.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,90,48,97,53,77,52,88,75,109,57,74,54,111,101,55,118,103,54,107,108,119,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:40:34.251 [info] <0.1147.0> Dropping frame {content_header,60,0,7,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:40:34.251 [info] <0.1147.0> Dropping frame {content_body,<<"aeffe\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:40:42.319 [error] emulator Error in process <0.3463.0> on node pampa_pro@localhost with exit value:
+{badarg,[{msger,loop,1,[{file,"/home/pampa/pampa_pro/src/msger.erl"},{line,86}]}]}
+2017-11-09 22:41:33.733 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:86: Warning: binary construction will fail because of a type mismatch
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:41:33.750 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:41:39.826 [info] <0.1147.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,90,48,97,53,77,52,88,75,109,57,74,54,111,101,55,118,103,54,107,108,119,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:39.826 [info] <0.1147.0> Dropping frame {content_header,60,0,7,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:39.826 [info] <0.1147.0> Dropping frame {content_body,<<"agfae\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:41:39.827 [error] <0.3474.0> gen_server <0.3474.0> terminated with reason: unexpected_delivery_and_no_default_consumer
+2017-11-09 22:41:39.827 [error] <0.3474.0> CRASH REPORT Process <0.3474.0> with 0 neighbours exited with reason: unexpected_delivery_and_no_default_consumer in gen_server2:terminate/3 line 1170
+2017-11-09 22:41:39.828 [error] <0.3473.0> Supervisor {<0.3473.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}) at <0.3474.0> exit with reason unexpected_delivery_and_no_default_consumer in context child_terminated
+2017-11-09 22:41:39.828 [error] <0.3473.0> Supervisor {<0.3473.0>,amqp_channel_sup} had child gen_consumer started with amqp_gen_consumer:start_link(amqp_selective_consumer, [], {<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}) at <0.3474.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:41:39.828 [error] <0.3475.0> gen_server <0.3475.0> terminated with reason: shutdown in gen:do_call/4 line 177
+2017-11-09 22:41:39.828 [error] <0.3473.0> Supervisor {<0.3473.0>,amqp_channel_sup} had child channel started with amqp_channel:start_link(network, <0.3466.0>, 1, <0.3474.0>, {<<"client 127.0.0.1:45691 -> 127.0.0.1:5672">>,1}) at <0.3475.0> exit with reason shutdown in context shutdown_error
+2017-11-09 22:41:47.688 [info] <0.3468.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,101,88,108,115,115,88,117,48,114,76,120,84,114,54,69,116,65,108,90,89,90,65,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:47.688 [info] <0.3468.0> Dropping frame {content_header,60,0,7,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:47.688 [info] <0.3468.0> Dropping frame {content_body,<<"agefa\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:41:47.688 [info] <0.1147.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,71,90,48,97,53,77,52,88,75,109,57,74,54,111,101,55,118,103,54,107,108,119,0,0,0,0,0,0,0,4,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:47.689 [info] <0.1147.0> Dropping frame {content_header,60,0,7,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:41:47.689 [info] <0.1147.0> Dropping frame {content_body,<<"agefa\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:41:56.121 [error] emulator Error in process <0.3659.0> on node pampa_pro@localhost with exit value:
+{badarg,[{msger,loop,1,[{file,"/home/pampa/pampa_pro/src/msger.erl"},{line,86}]}]}
+2017-11-09 22:42:21.314 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:42:21.334 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:42:37.560 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:42:37.582 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:42:49.992 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:42:49.992 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:42:49.992 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:42:49.993 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:42:49.993 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:42:49.993 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:42:49.993 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:42:49.996 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:42:49.997 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:43:02.110 [error] emulator Error in process <0.1015.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1000.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:43:02.111 [error] <0.1012.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.1012.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1497>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1014.0>, {<<"client 127.0.0.1:57291 -> 127.0.0.1:5672">>,1}) at <0.1015.0> exit with reason bad argument in call to erlang:size(<0.1000.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:43:02.111 [error] <0.1012.0> Supervisor {<0.1012.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1497>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1014.0>, {<<"client 127.0.0.1:57291 -> 127.0.0.1:5672">>,1}) at <0.1015.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:43:41.322 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:43:41.339 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:43:49.296 [error] <0.3410.0>@rabbit_binary_generator:build_content_frames:95 CRASH REPORT Process <0.3410.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(<0.3397.0>) in rabbit_binary_generator:build_content_frames/7 line 95
+2017-11-09 22:43:49.297 [error] <0.3407.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.3407.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3409.0>, {<<"client 127.0.0.1:36114 -> 127.0.0.1:5672">>,1}) at <0.3410.0> exit with reason bad argument in call to erlang:size(<0.3397.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:43:49.297 [error] <0.3407.0> Supervisor {<0.3407.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3409.0>, {<<"client 127.0.0.1:36114 -> 127.0.0.1:5672">>,1}) at <0.3410.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:44:06.350 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:44:06.350 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:44:06.351 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:44:06.351 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:44:06.351 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:44:06.351 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:44:06.351 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:44:06.353 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:44:06.354 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:44:16.624 [error] <0.1293.0>@rabbit_binary_generator:build_content_frames:95 CRASH REPORT Process <0.1293.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(<0.1278.0>) in rabbit_binary_generator:build_content_frames/7 line 95
+2017-11-09 22:44:16.625 [error] <0.1290.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.1290.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1775>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1292.0>, {<<"client 127.0.0.1:34271 -> 127.0.0.1:5672">>,1}) at <0.1293.0> exit with reason bad argument in call to erlang:size(<0.1278.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:44:16.626 [error] <0.1290.0> Supervisor {<0.1290.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1775>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1292.0>, {<<"client 127.0.0.1:34271 -> 127.0.0.1:5672">>,1}) at <0.1293.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:44:44.833 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:44:44.848 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:44:51.341 [info] <0.1285.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,66,71,84,103,56,75,118,76,113,118,65,84,65,84,89,98,107,71,68,122,71,119,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:44:51.341 [info] <0.1285.0> Dropping frame {content_header,60,0,8,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:44:51.341 [info] <0.1285.0> Dropping frame {content_body,<<"aegeff\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:44:54.734 [error] <0.3380.0>@rabbit_binary_generator:build_content_frames:95 CRASH REPORT Process <0.3380.0> with 0 neighbours crashed with reason: bad argument in call to erlang:size(<0.3367.0>) in rabbit_binary_generator:build_content_frames/7 line 95
+2017-11-09 22:44:54.735 [error] <0.3377.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.3377.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3379.0>, {<<"client 127.0.0.1:34265 -> 127.0.0.1:5672">>,1}) at <0.3380.0> exit with reason bad argument in call to erlang:size(<0.3367.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:44:54.735 [error] <0.3377.0> Supervisor {<0.3377.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3379.0>, {<<"client 127.0.0.1:34265 -> 127.0.0.1:5672">>,1}) at <0.3380.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:53:33.896 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:53:33.896 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:53:33.896 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:53:33.896 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:53:33.897 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:53:33.897 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:53:33.898 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:53:33.901 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:53:33.902 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:53:45.185 [error] <0.968.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.968.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1454>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.970.0>, {<<"client 127.0.0.1:45318 -> 127.0.0.1:5672">>,1}) at <0.971.0> exit with reason bad argument in call to erlang:size(<0.956.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 22:53:45.186 [error] <0.968.0> Supervisor {<0.968.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1454>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.970.0>, {<<"client 127.0.0.1:45318 -> 127.0.0.1:5672">>,1}) at <0.971.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:53:45.186 [error] emulator Error in process <0.971.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.956.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 22:54:48.554 [warning] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:59: Warning: variable 'Self' is unused
+/home/pampa/pampa_pro/src/msger.erl:83: Warning: variable 'DeadUserId' is unused
+/home/pampa/pampa_pro/src/msger.erl:0: Recompiled with 1 warnings
+2017-11-09 22:54:48.569 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:54:59.149 [info] <0.963.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,120,57,87,57,86,116,97,118,85,75,97,117,75,103,74,107,45,110,81,103,86,65,0,0,0,0,0,0,0,2,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:54:59.149 [info] <0.963.0> Dropping frame {content_header,60,0,6,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:54:59.149 [info] <0.963.0> Dropping frame {content_body,<<"faew\r\n">>} for invalid or closed channel number 1
+2017-11-09 22:55:05.832 [info] <0.963.0> Dropping frame {method,'basic.deliver',<<31,97,109,113,46,99,116,97,103,45,120,57,87,57,86,116,97,118,85,75,97,117,75,103,74,107,45,110,81,103,86,65,0,0,0,0,0,0,0,3,0,6,104,101,108,108,111,49,0>>} for invalid or closed channel number 1
+2017-11-09 22:55:05.832 [info] <0.963.0> Dropping frame {content_header,60,0,12,<<0,0>>} for invalid or closed channel number 1
+2017-11-09 22:55:05.832 [info] <0.963.0> Dropping frame {content_body,<<"MY_USER_DEAD">>} for invalid or closed channel number 1
+2017-11-09 22:56:12.037 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 22:56:12.037 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 22:56:12.037 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 22:56:12.037 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 22:56:12.037 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 22:56:12.038 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 22:56:12.039 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 22:56:12.043 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 22:56:12.044 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 22:58:08.838 [info] <0.620.0> /home/pampa/pampa_pro/src/msger.erl:0: Recompiled.
+2017-11-09 22:58:08.860 [info] <0.620.0> msger: Reloaded! (Beam changed.)
+2017-11-09 22:58:21.489 [error] <0.3558.0>@lists:reverse:147 Supervisor {<0.3558.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3560.0>, {<<"client 127.0.0.1:60079 -> 127.0.0.1:5672">>,1}) at <0.3561.0> exit with reason no function clause matching lists:reverse(<0.3548.0>) line 147 in context child_terminated
+2017-11-09 22:58:21.490 [error] <0.3558.0> Supervisor {<0.3558.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.3839>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.3560.0>, {<<"client 127.0.0.1:60079 -> 127.0.0.1:5672">>,1}) at <0.3561.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 22:58:21.490 [error] emulator Error in process <0.3561.0> on node pampa_pro@localhost with exit value:
+{function_clause,[{lists,reverse,[<0.3548.0>],[{file,"lists.erl"},{line,147}]},{rabbit_binary_generator,build_content_frames,3,[{file,"src/rabbit_binary_generator.erl"},{line,81}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 23:01:36.280 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 23:01:36.280 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 23:01:36.280 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 23:01:36.280 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 23:01:36.280 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 23:01:36.280 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 23:01:36.281 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 23:01:36.283 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 23:01:36.283 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 23:01:47.673 [error] emulator Error in process <0.1070.0> on node pampa_pro@localhost with exit value:
+{badarg,[{erlang,size,[<0.1053.0>],[]},{rabbit_binary_generator,build_content_frames,7,[{file,"src/rabbit_binary_generator.erl"},{line,95}]},{rabbit_binary_generator,build_simple_content_frames,4,[{file,"src/rabbit_binary_generator.erl"},{line,70}]},{rabbit_writer,assemble_frames,5,[{file,"src/rabbit_writer.erl"},{line,311}]},{rabbit_writer,internal_send_command_async,3,[{file,"src/rabbit_writer.erl"},{line,341}]},{rabbit_writer,handle_message,3,[{file,"src/rabbit_writer.erl"},{line,209}]},{rabbit_writer,mainloop1,2,[{file,"src/rabbit_writer.erl"},{line,193}]},{rabbit_writer,mainloop,2,[{file,"src/rabbit_writer.erl"},{line,184}]}]}
+2017-11-09 23:01:47.675 [error] <0.1067.0>@rabbit_binary_generator:build_content_frames:95 Supervisor {<0.1067.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1551>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1069.0>, {<<"client 127.0.0.1:47367 -> 127.0.0.1:5672">>,1}) at <0.1070.0> exit with reason bad argument in call to erlang:size(<0.1053.0>) in rabbit_binary_generator:build_content_frames/7 line 95 in context child_terminated
+2017-11-09 23:01:47.675 [error] <0.1067.0> Supervisor {<0.1067.0>,amqp_channel_sup} had child writer started with rabbit_writer:start_link(#Port<0.1551>, 1, 131072, rabbit_framing_amqp_0_9_1, <0.1069.0>, {<<"client 127.0.0.1:47367 -> 127.0.0.1:5672">>,1}) at <0.1070.0> exit with reason reached_max_restart_intensity in context shutdown
+2017-11-09 23:11:11.773 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 23:11:11.773 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 23:11:11.773 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 23:11:11.773 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 23:11:11.774 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 23:11:11.774 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 23:11:11.775 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 23:11:11.777 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 23:11:11.777 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost
+2017-11-09 23:14:44.725 [info] <0.620.0> /home/pampa/pampa_pro/src/tcp_handler.erl:0: Recompiled.
+2017-11-09 23:14:44.745 [info] <0.620.0> tcp_handler: Reloaded! (Beam changed.)
+2017-11-09 23:15:09.261 [info] <0.564.0> Application lager started on node pampa_pro@localhost
+2017-11-09 23:15:09.261 [info] <0.564.0> Application ranch started on node pampa_pro@localhost
+2017-11-09 23:15:09.261 [info] <0.564.0> Application ranch_proxy_protocol started on node pampa_pro@localhost
+2017-11-09 23:15:09.261 [info] <0.564.0> Application cowboy started on node pampa_pro@localhost
+2017-11-09 23:15:09.261 [info] <0.564.0> Application rabbit_common started on node pampa_pro@localhost
+2017-11-09 23:15:09.262 [info] <0.564.0> Application amqp_client started on node pampa_pro@localhost
+2017-11-09 23:15:09.263 [info] <0.564.0> Application pampa_pro started on node pampa_pro@localhost
+2017-11-09 23:15:09.266 [info] <0.564.0> Application sasl started on node pampa_pro@localhost
+2017-11-09 23:15:09.266 [info] <0.564.0> Application runtime_tools started on node pampa_pro@localhost

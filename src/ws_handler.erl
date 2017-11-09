@@ -72,7 +72,7 @@ websocket_handle(_Frame,State) ->
 
 % for websocket_info/2
 % msger message will handle here
-websocket_info({'RECV',Data,_From},State) ->
+websocket_info({?USER_RECV_MSG,Data,_From},State) ->
 	% io:format("received msger data : ~p  from : ~p \n ",[Data,From]),
 	% {ok,State,hibernate};
 	{reply,{text,Data},State,hibernate};
