@@ -1,6 +1,7 @@
--define (PORT , 9090).
-
--define (WS_TIMEOUT , 30000).
+-define (HTTP_WEBSOCKET_PORT , 9090).
+-define (TCP_PORT, 9091).
+-define (WS_TIMEOUT, 30000).
+-define (TCP_TIMEOUT, 10000).
 
 -define (USER_DEAD , 'USER_DEAD').
 
@@ -22,8 +23,10 @@
 					}).
 
 -record (tcp_state, {
-					tcpid 	= 	none,
-					msger 	= 	none
+					socket  	= 	none,
+					transport 	= 	none,
+					tcpid 		= 	none,
+					msger 		= 	none
 					}).
 
 

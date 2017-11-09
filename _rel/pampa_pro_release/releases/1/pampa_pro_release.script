@@ -1,5 +1,5 @@
 %% coding: utf-8
-%% script generated at {2017,11,9} {15,1,39}
+%% script generated at {2017,11,9} {17,1,31}
 {script,
     {"pampa_pro_release","1"},
     [{preLoaded,
@@ -162,7 +162,9 @@
           amqp_rpc_client,amqp_rpc_server,amqp_selective_consumer,amqp_sup,
           amqp_uri,amqp_util,rabbit_routing_util,uri_parser]},
      {path,["$ROOT/lib/pampa_pro-0.1.0/ebin"]},
-     {primLoad,[msger,pampa_pro_app,pampa_pro_sup,ws_handler]},
+     {primLoad,
+         [http_handler,msger,pampa_pro_app,pampa_pro_sup,tcp_handler,
+          ws_handler]},
      {path,["$ROOT/lib/sasl-3.1/ebin"]},
      {primLoad,
          [alarm_handler,erlsrv,format_lib_supp,misc_supp,rb,rb_format_supp,
@@ -648,9 +650,12 @@
                   [{description,"New project"},
                    {vsn,"0.1.0"},
                    {id,[]},
-                   {modules,[msger,pampa_pro_app,pampa_pro_sup,ws_handler]},
+                   {modules,
+                       [http_handler,msger,pampa_pro_app,pampa_pro_sup,
+                        tcp_handler,ws_handler]},
                    {registered,[pampa_pro_sup]},
-                   {applications,[kernel,stdlib,sync,cowboy,amqp_client]},
+                   {applications,
+                       [kernel,stdlib,sync,ranch,cowboy,amqp_client]},
                    {included_applications,[]},
                    {env,[]},
                    {maxT,infinity},

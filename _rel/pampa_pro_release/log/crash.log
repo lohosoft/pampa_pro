@@ -146,3 +146,274 @@
 /home/pampa/pampa_pro/src/msger.erl:58: Error: record msger_state undefined
 /home/pampa/pampa_pro/src/msger.erl:63: Error: record msger_state undefined
 /home/pampa/pampa_pro/src/msger.erl:68: Error: record msger_state undefined
+2017-11-09 15:17:59 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.3378.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[[{<<"egheoin">>,true}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [<0.3377.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3377.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 300
+  neighbours:
+2017-11-09 15:17:59 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.3377.0>, stream 1 had its request process <0.3378.0> exit with reason badarg and stacktrace [{erlang,iolist_size,[[{<<"egheoin">>,true}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:18:02 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.3389.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[[{<<"egheoin">>,true}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [<0.3388.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3388.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 302
+  neighbours:
+2017-11-09 15:18:02 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.3388.0>, stream 1 had its request process <0.3389.0> exit with reason badarg and stacktrace [{erlang,iolist_size,[[{<<"egheoin">>,true}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:19:32 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.3600.0>
+    registered_name: []
+    exception error: bad argument: [{erlang,iolist_size,[[{<<"foo">>,<<"bar">>}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+    ancestors: [<0.3599.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3599.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 352
+  neighbours:
+2017-11-09 15:19:32 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.3599.0>, stream 1 had its request process <0.3600.0> exit with reason badarg and stacktrace [{erlang,iolist_size,[[{<<"foo">>,<<"bar">>}]],[]},{cowboy_req,reply,4,[{file,"src/cowboy_req.erl"},{line,706}]},{http_handler,handle,3,[{file,"src/http_handler.erl"},{line,29}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:21:45 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.3912.0>
+    registered_name: []
+    exception error: {{badmatch,#{<<"echo1">> => <<"bar">>}},[{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.3911.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.3911.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 308
+  neighbours:
+2017-11-09 15:21:45 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.3911.0>, stream 1 had its request process <0.3912.0> exit with reason {badmatch,#{<<"echo1">> => <<"bar">>}} and stacktrace [{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:22:18 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:36: Warning: variable 'Echo' is unused
+/home/pampa/pampa_pro/src/http_handler.erl:37: Error: variable 'Other' is unbound
+2017-11-09 15:22:22 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:36: Warning: variable 'Echo' is unused
+/home/pampa/pampa_pro/src/http_handler.erl:37: Error: variable '_Other' is unbound
+2017-11-09 15:22:33 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:37: Error: variable '_Other' is unbound
+2017-11-09 15:22:41 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4053.0>
+    registered_name: []
+    exception error: {{badmatch,#{<<"echo1">> => <<"bar">>}},[{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4052.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4052.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 308
+  neighbours:
+2017-11-09 15:22:41 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4052.0>, stream 1 had its request process <0.4053.0> exit with reason {badmatch,#{<<"echo1">> => <<"bar">>}} and stacktrace [{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:23:08 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:37: Error: variable '_Other' is unbound
+2017-11-09 15:23:16 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4139.0>
+    registered_name: []
+    exception error: {{badmatch,#{<<"echo1">> => <<"bar">>}},[{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4138.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4138.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 308
+  neighbours:
+2017-11-09 15:23:16 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4138.0>, stream 1 had its request process <0.4139.0> exit with reason {badmatch,#{<<"echo1">> => <<"bar">>}} and stacktrace [{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:23:18 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4148.0>
+    registered_name: []
+    exception error: {{badmatch,#{<<"echo1">> => <<"bar">>}},[{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4147.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4147.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 610
+    stack_size: 27
+    reductions: 308
+  neighbours:
+2017-11-09 15:23:18 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4147.0>, stream 1 had its request process <0.4148.0> exit with reason {badmatch,#{<<"echo1">> => <<"bar">>}} and stacktrace [{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,38}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:23:35 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:1: Error: no module definition
+2017-11-09 15:23:53 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:45: Error: variable 'OtherValue' is unbound
+2017-11-09 15:24:17 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4301.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4300.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4300.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 367
+  neighbours:
+2017-11-09 15:24:17 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4300.0>, stream 1 had its request process <0.4301.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:24:19 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4307.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar\\">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4306.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4306.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 368
+  neighbours:
+2017-11-09 15:24:19 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4306.0>, stream 1 had its request process <0.4307.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar\\">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:24:20 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4314.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4313.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4313.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 367
+  neighbours:
+2017-11-09 15:24:20 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4313.0>, stream 1 had its request process <0.4314.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:24:41 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:24: Error: function handle/3 undefined
+/home/pampa/pampa_pro/src/http_handler.erl:39: Error: syntax error before: '}'
+2017-11-09 15:24:43 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4372.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4371.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4371.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 367
+  neighbours:
+2017-11-09 15:24:43 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4371.0>, stream 1 had its request process <0.4372.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:24:45 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4379.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4378.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4378.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 367
+  neighbours:
+2017-11-09 15:24:45 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4378.0>, stream 1 had its request process <0.4379.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:24:46 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.4385.0>
+    registered_name: []
+    exception error: {function_clause,[{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.4384.0>,<0.675.0>,<0.674.0>,ranch_sup,<0.657.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.4384.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 987
+    stack_size: 27
+    reductions: 367
+  neighbours:
+2017-11-09 15:24:46 =ERROR REPORT====
+Ranch listener my_http_listener, connection process <0.4384.0>, stream 1 had its request process <0.4385.0> exit with reason function_clause and stacktrace [{cowboy_req,do_reply,[200,#{<<"content-length">> => <<"0">>,<<"content-type">> => <<"text/plain">>},<<>>,<<"bar">>],[{file,"src/cowboy_req.erl"},{line,712}]},{http_handler,handle,3,[{file,"/home/pampa/pampa_pro/src/http_handler.erl"},{line,42}]},{cowboy_handler,execute,2,[{file,"src/cowboy_handler.erl"},{line,37}]},{cowboy_stream_h,execute,3,[{file,"src/cowboy_stream_h.erl"},{line,205}]},{cowboy_stream_h,request_process,3,[{file,"src/cowboy_stream_h.erl"},{line,184}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]
+2017-11-09 15:26:24 =ERROR REPORT====
+/home/pampa/pampa_pro/src/http_handler.erl:52: Error: function handle/3 already defined
+2017-11-09 15:28:20 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:1: Error: no module definition
+2017-11-09 16:15:50 =ERROR REPORT====
+/home/pampa/pampa_pro/src/tcp_handler.erl:17: Error: function loop/2 undefined
+/home/pampa/pampa_pro/src/tcp_handler.erl:20: Error: undefined macro 'TCP_TIMEOUT_MS'
