@@ -1,3 +1,3 @@
--name rabbit@localhost
--setcookie pampa_pro_server
+-name pampa_pro@localhost
+-setcookie WCCZGKNMDUOYGILTEBGB
 -heart

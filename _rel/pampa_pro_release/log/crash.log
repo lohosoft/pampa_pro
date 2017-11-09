@@ -25,3 +25,124 @@
 ** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{undef,[{rabbit_direct,connect,[{none,none},<<"/">>,rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@VM_0_14_centos.3.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,<<"/">>},{client_properties,[]},{type,direct},{connected_at,1510197085878},{node,pampa_pro@VM_0_14_centos},{user_who_performed_action,none}]],[]},{rpc,local_call,3,[{file,"rpc.erl"},{line,321}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@VM_0_14_centos,none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
 ** Client <0.670.0> stacktrace
 ** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 11:37:42 =ERROR REPORT====
+** Generic server <0.673.0> terminating 
+** Last message in was connect
+** When Server state == {<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}
+** Reason for termination == 
+** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{undef,[{rabbit_direct,connect,[{none,none},<<"/">>,rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.3.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,<<"/">>},{client_properties,[]},{type,direct},{connected_at,1510198662115},{node,pampa_pro@localhost},{user_who_performed_action,none}]],[]},{rpc,local_call,3,[{file,"rpc.erl"},{line,321}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+** Client <0.670.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 11:45:43 =ERROR REPORT====
+** Generic server <0.673.0> terminating 
+** Last message in was connect
+** When Server state == {<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}
+** Reason for termination == 
+** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{undef,[{rabbit_direct,connect,[{none,none},<<"/">>,rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.2.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,<<"/">>},{client_properties,[]},{type,direct},{connected_at,1510199143225},{node,pampa_pro@localhost},{user_who_performed_action,none}]],[]},{rpc,local_call,3,[{file,"rpc.erl"},{line,321}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+** Client <0.670.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 12:12:54 =ERROR REPORT====
+** Generic server <0.673.0> terminating 
+** Last message in was connect
+** When Server state == {<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}
+** Reason for termination == 
+** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{{function_clause,[{gen,do_for_proc,[{rex,"localhost"},#Fun<gen.0.94381411>],[{file,"gen.erl"},{line,253}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{rpc,do_call,3,[{file,"rpc.erl"},{line,327}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[{rex,"localhost"},{call,rabbit_direct,connect,[{none,none},"/",rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.1.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,"/"},{client_properties,[]},{type,direct},{connected_at,1510200774065},{node,"localhost"},{user_who_performed_action,none}]],<0.665.0>},infinity]}}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+** Client <0.670.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 12:12:54 =CRASH REPORT====
+  crasher:
+    initial call: amqp_gen_connection:init/1
+    pid: <0.673.0>
+    registered_name: []
+    exception error: {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{{function_clause,[{gen,do_for_proc,[{rex,"localhost"},#Fun<gen.0.94381411>],[{file,"gen.erl"},{line,253}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{rpc,do_call,3,[{file,"rpc.erl"},{line,327}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[{rex,"localhost"},{call,rabbit_direct,connect,[{none,none},"/",rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.1.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,"/"},{client_properties,[]},{type,direct},{connected_at,1510200774065},{node,"localhost"},{user_who_performed_action,none}]],<0.665.0>},infinity]}}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.671.0>,amqp_sup,<0.666.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.671.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 890
+  neighbours:
+2017-11-09 12:12:54 =SUPERVISOR REPORT====
+     Supervisor: {<0.671.0>,amqp_connection_sup}
+     Context:    child_terminated
+     Reason:     {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{{function_clause,[{gen,do_for_proc,[{rex,"localhost"},#Fun<gen.0.94381411>],[{file,"gen.erl"},{line,253}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{rpc,do_call,3,[{file,"rpc.erl"},{line,327}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[{rex,"localhost"},{call,rabbit_direct,connect,[{none,none},"/",rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.1.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,"/"},{client_properties,[]},{type,direct},{connected_at,1510200774065},{node,"localhost"},{user_who_performed_action,none}]],<0.665.0>},infinity]}}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+     Offender:   [{pid,<0.673.0>},{name,connection},{mfargs,{amqp_gen_connection,start_link,[<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}]}},{restart_type,intrinsic},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-11-09 12:12:54 =SUPERVISOR REPORT====
+     Supervisor: {<0.671.0>,amqp_connection_sup}
+     Context:    shutdown
+     Reason:     reached_max_restart_intensity
+     Offender:   [{pid,<0.673.0>},{name,connection},{mfargs,{amqp_gen_connection,start_link,[<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}]}},{restart_type,intrinsic},{shutdown,brutal_kill},{child_type,worker}]
+
+2017-11-09 12:12:54 =CRASH REPORT====
+  crasher:
+    initial call: application_master:init/4
+    pid: <0.669.0>
+    registered_name: []
+    exception exit: {{bad_return,{{pampa_pro_app,start,[normal,[]]},{'EXIT',{{function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{{function_clause,[{gen,do_for_proc,[{rex,"localhost"},#Fun<gen.0.94381411>],[{file,"gen.erl"},{line,253}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{rpc,do_call,3,[{file,"rpc.erl"},{line,327}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[{rex,"localhost"},{call,rabbit_direct,connect,[{none,none},"/",rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.1.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,"/"},{client_properties,[]},{type,direct},{connected_at,1510200774065},{node,"localhost"},{user_who_performed_action,none}]],<0.665.0>},infinity]}}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[<0.673.0>,connect,60000]}}}}},[{application_master,init,4,[{file,"application_master.erl"},{line,134}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+    ancestors: [<0.668.0>]
+    message_queue_len: 1
+    messages: [{'EXIT',<0.670.0>,normal}]
+    links: [<0.668.0>,<0.560.0>]
+    dictionary: []
+    trap_exit: true
+    status: running
+    heap_size: 2586
+    stack_size: 27
+    reductions: 301
+  neighbours:
+2017-11-09 12:21:27 =ERROR REPORT====
+** Generic server <0.673.0> terminating 
+** Last message in was connect
+** When Server state == {<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}
+** Reason for termination == 
+** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{{function_clause,[{gen,do_for_proc,[{rex,"localhost"},#Fun<gen.0.94381411>],[{file,"gen.erl"},{line,253}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{rpc,do_call,3,[{file,"rpc.erl"},{line,327}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{gen_server,call,[{rex,"localhost"},{call,rabbit_direct,connect,[{none,none},"/",rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.3.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,"/"},{client_properties,[]},{type,direct},{connected_at,1510201287294},{node,"localhost"},{user_who_performed_action,none}]],<0.665.0>},infinity]}}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,"/","localhost",none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+** Client <0.670.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 12:26:45 =ERROR REPORT====
+** Generic server <0.673.0> terminating 
+** Last message in was connect
+** When Server state == {<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}
+** Reason for termination == 
+** {function_clause,[{amqp_gen_connection,terminate,[{{case_clause,{badrpc,{'EXIT',{undef,[{rabbit_direct,connect,[{none,none},<<"/">>,rabbit_framing_amqp_0_9_1,<0.673.0>,[{pid,<0.673.0>},{protocol,{'Direct',{0,9,1}}},{host,unknown},{port,unknown},{name,<<"<pampa_pro@localhost.3.673.0>">>},{peer_host,unknown},{peer_port,unknown},{user,none},{vhost,<<"/">>},{client_properties,[]},{type,direct},{connected_at,1510201605862},{node,pampa_pro@localhost},{user_who_performed_action,none}]],[]},{rpc,local_call,3,[{file,"rpc.erl"},{line,321}]},{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}}}},[{amqp_direct_connection,connect,4,[{file,"src/amqp_direct_connection.erl"},{line,151}]},{amqp_gen_connection,handle_call,3,[{file,"src/amqp_gen_connection.erl"},{line,171}]},{gen_server,try_handle_call,4,[{file,"gen_server.erl"},{line,636}]},{gen_server,handle_msg,6,[{file,"gen_server.erl"},{line,665}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]},{<0.672.0>,{amqp_params_direct,none,none,<<"/">>,pampa_pro@localhost,none,[]}}],[{file,"src/amqp_gen_connection.erl"},{line,239}]},{gen_server,try_terminate,3,[{file,"gen_server.erl"},{line,648}]},{gen_server,terminate,10,[{file,"gen_server.erl"},{line,833}]},{proc_lib,init_p_do_apply,3,[{file,"proc_lib.erl"},{line,247}]}]}
+** Client <0.670.0> stacktrace
+** [{gen,do_call,4,[{file,"gen.erl"},{line,169}]},{gen_server,call,3,[{file,"gen_server.erl"},{line,210}]},{pampa_pro_app,start,2,[{file,"src/pampa_pro_app.erl"},{line,10}]},{application_master,start_it_old,4,[{file,"application_master.erl"},{line,273}]}]
+2017-11-09 14:04:12 =ERROR REPORT====
+/home/pampa/pampa_pro/src/ws_handler.erl:1: Error: no module definition
+2017-11-09 14:06:03 =ERROR REPORT====
+/home/pampa/pampa_pro/src/msger.erl:1: Error: no module definition
+2017-11-09 14:23:43 =ERROR REPORT====
+/home/pampa/pampa_pro/src/ws_handler.erl:16: Warning: variable 'WsId' is unused
+/home/pampa/pampa_pro/src/ws_handler.erl:19: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:40: Warning: variable 'MsgerPid' is unused
+/home/pampa/pampa_pro/src/ws_handler.erl:42: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:44: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:59: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:65: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:90: Error: record ws_state undefined
+/home/pampa/pampa_pro/src/ws_handler.erl:91: Error: record ws_state undefined
+2017-11-09 14:25:56 =ERROR REPORT====
+/home/pampa/pampa_pro/src/msger.erl:9: Warning: variable 'WsPid' is unused
+/home/pampa/pampa_pro/src/msger.erl:26: Warning: variable 'Tag' is unused
+/home/pampa/pampa_pro/src/msger.erl:36: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:58: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:63: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:68: Error: record msger_state undefined
+2017-11-09 14:26:05 =ERROR REPORT====
+/home/pampa/pampa_pro/src/msger.erl:9: Warning: variable 'WsPid' is unused
+/home/pampa/pampa_pro/src/msger.erl:26: Warning: variable 'Tag' is unused
+/home/pampa/pampa_pro/src/msger.erl:36: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:58: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:63: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:68: Error: record msger_state undefined
+2017-11-09 14:26:19 =ERROR REPORT====
+/home/pampa/pampa_pro/src/msger.erl:9: Warning: variable 'WsPid' is unused
+/home/pampa/pampa_pro/src/msger.erl:26: Warning: variable 'Tag' is unused
+/home/pampa/pampa_pro/src/msger.erl:36: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:58: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:63: Error: record msger_state undefined
+/home/pampa/pampa_pro/src/msger.erl:68: Error: record msger_state undefined
