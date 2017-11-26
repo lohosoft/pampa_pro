@@ -85,20 +85,29 @@ websocket_info(Info,State) ->
 
 
 
+% terminate(Reason, PartialReq, State) -> 
+% 	io:format("reason : ~p , partialreq : ~p , State : ~p ~n",[Reason,PartialReq,State]),
+% 	MsgerPid = State#ws_state.msger,
+% 	msger:send(?USER_DEAD,State#ws_state.wsid,MsgerPid,self()),
+% 	receive
+% 		{'RECV',Payload,MsgerPid} ->
+% 			io:format("normal exit on data : ~p with msgerid : ~p ~n",[Payload,MsgerPid]),
+% 			ok;
+% 		Error ->
+% 			io:format("error on websocket terminate : ~p ~n",[Error]),
+% 		ok
+% 	end.
+
+
 terminate(Reason, PartialReq, State) -> 
 	io:format("reason : ~p , partialreq : ~p , State : ~p ~n",[Reason,PartialReq,State]),
 	MsgerPid = State#ws_state.msger,
 	msger:send(?USER_DEAD,State#ws_state.wsid,MsgerPid,self()),
-	receive
-		{'RECV',Payload,MsgerPid} ->
-			io:format("normal exit on data : ~p with msgerid : ~p ~n",[Payload,MsgerPid]),
-			ok;
-		Error ->
-			io:format("error on websocket terminate : ~p ~n",[Error]),
-		ok
-	end.
+	ok.
 
 
+% terminate(_Reason, _PartialReq, _State) -> 
+% 	ok.
 
 
 

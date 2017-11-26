@@ -56,19 +56,20 @@ loop(State) ->
 
         {#'basic.deliver'{},#amqp_msg{payload = Payload}} ->
             io:format(" [x] Msger Received ~p~n", [Payload]),
-            Self = term_to_binary(State#msger_state.userpid),
-            case Payload of
+            Payload1 = binary_to_term(Payload),
+            UserPid = State#msger_state.userpid,
+            case Payload1 of
                 %  user dead , close channel and connection before exit normal
-                Self ->
-                    io:format("self user dead : ~p ~n",[Self]),
+                {?USER_DEAD,UserPid} ->
+                    io:format("self user dead : ~p ~n",[UserPid]),
                     amqp_channel:close(State#msger_state.channel),
 
                     amqp_connection:close(State#msger_state.connection),
 
                     ok;
                     % loop(State);
-                _Other ->
-                    State#msger_state.userpid ! {?USER_RECV_MSG,Payload,self()},
+                {?USER_SEND_MSG,Data} ->
+                    State#msger_state.userpid ! {?USER_RECV_MSG,Data,self()},
                     loop(State)
             end;
 
@@ -76,15 +77,26 @@ loop(State) ->
             % io:format("send data : ~p for ws : ~p \n",[Data,UserPid]),
     		amqp_channel:cast(State#msger_state.channel,
                                 #'basic.publish'{exchange = <<"hello1">>}, 
-                                #amqp_msg{payload = Data}),
+                                #amqp_msg{payload = term_to_binary({?USER_SEND_MSG,Data})
+                                }),
             loop(State); 
         % ==============  TODO 
         % need send unique id but user pid 
-        {?USER_DEAD,DeadUserId,_UserPid} ->
-            amqp_channel:cast(State#msger_state.channel,
-                                #'basic.publish'{exchange = <<"hello1">>}, 
-                                #amqp_msg{payload = term_to_binary(DeadUserId)}),
-            loop(State);
+        {?USER_DEAD,DeadUserId,UserPid} ->
+            %   handle one of client exit ================  TODO 
+            % amqp_channel:cast(State#msger_state.channel,
+            %                     #'basic.publish'{exchange = <<"hello1">>}, 
+            %                     #amqp_msg{payload = term_to_binary({?USER_DEAD,DeadUserId})
+            %                     }),
+            % loop(State);
+
+            % do nothing , just exit 
+
+            io:format("user dead ~p pid : ~p ~n",[DeadUserId,UserPid]),
+            amqp_channel:close(State#msger_state.channel),
+
+            amqp_connection:close(State#msger_state.connection),
+            ok;
 
         _Other ->
             % io:format("msger received unknown messages"),

@@ -1,0 +1,8 @@
+run_erl [12824] Sun Nov 26 20:15:16 2017
+Args before exec of shell:
+run_erl [12824] Sun Nov 26 20:15:16 2017
+argv[0] = sh
+run_erl [12824] Sun Nov 26 20:15:16 2017
+argv[1] = -c
+run_erl [12824] Sun Nov 26 20:15:16 2017
+argv[2] = exec "/home/pampa/pampa_pro/_rel/pampa_pro_release/bin/pampa_pro_release" "console"

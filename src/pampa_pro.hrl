@@ -9,6 +9,7 @@
 
 -define (USER_RECV_MSG, 'USER_RECV_MSG').
 
+
 -record (msger_state, {
 						userpid 		= 		none,
 						channel 		=		none,
